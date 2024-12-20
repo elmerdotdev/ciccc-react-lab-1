@@ -15,13 +15,15 @@
 4. Here are the details for each component:
 
     **UserForm**
-    - One controlled form with 6 fields:
+    - One controlled form with 6 fields and 2 buttons:
         - fullname (text)
         - age (number)
         - education (select) - *Grade school, high school, college*
         - gender (radio) - *Male, Female, other*
         - skills (checkbox) - *TypeScript, React, Node, NoSQL*
         - bio (textarea)
+        - Add/Save User (button)
+        - Clear Fields (button)
     - The form will be used for both adding and editing a user.
 
     **UserList**
@@ -55,7 +57,7 @@
     ```
 
 6. Pass the data and handlers from the `App` component to the necessary components.
-7. For the states, make sure you have a `formData` state which is an object that holds all the form field data and a `users` state which holds the list of users. Create other states if needed.
+7. For the states, make sure you have a `formData` state which is an object that holds all the form field data and a `users` state which holds the list of users. Create other needed states.
 
     **Example:**
 
