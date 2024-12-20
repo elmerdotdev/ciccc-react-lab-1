@@ -16,14 +16,14 @@
 
     **UserForm**
     - One controlled form with 6 fields and 2 buttons:
-        - fullname (text)
-        - age (number)
-        - education (select) - *Grade school, high school, college*
-        - gender (radio) - *Male, Female, other*
-        - skills (checkbox) - *TypeScript, React, Node, NoSQL*
-        - bio (textarea)
-        - Add/Save User (button)
-        - Clear Fields (button)
+        - `fullname` (text)
+        - `age` (number)
+        - `education` (select) - *Grade school, high school, college*
+        - `gender` (radio) - *Male, Female, other*
+        - `skills` (checkbox) - *TypeScript, React, Node, NoSQL*
+        - `bio` (textarea)
+        - `Add/Save User` (button) - Adds or updates a user
+        - `Clear` (button) - Resets the form
     - The form will be used for both adding and editing a user.
 
     **UserList**
