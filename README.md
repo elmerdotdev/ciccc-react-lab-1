@@ -23,8 +23,8 @@
         - `skills` (checkbox) - *TypeScript, React, Node, NoSQL*
         - `bio` (textarea)
         ---
-        - `Add/Save User` (button) - Adds or updates a user
-        - `Clear` (button) - Resets the form
+        - `Add/Save User` (button) - Adds or updates a user.
+        - `Clear` (button) - Resets the form.
     - The form will be used for both adding and editing a user.
 
     **UserList**
